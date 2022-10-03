@@ -1,4 +1,4 @@
-let fruits = ['사과', '감', '수박', '감', '딸기', '감']
+
 
 function countFruit(name) {
     let persimmon = 0;
@@ -11,5 +11,6 @@ function countFruit(name) {
     return persimmon;
 }
 
+let fruits = ['사과', '감', '수박', '감', '딸기', '감']
 let count = countFruit('감');
 console.log(count);
